@@ -1,0 +1,23 @@
+.reactions {
+    display: flex;
+    gap: 10px;
+    margin-top: 0.5rem;
+}
+
+.reaction-button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: opacity 0.2s;
+}
+
+.reaction-button:hover {
+    opacity: 0.7;
+}
+
+.reaction-button.active {
+    opacity: 1;
+    transform: scale(1.1);
+}
